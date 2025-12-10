@@ -1,4 +1,4 @@
-import InputProduct from "../assets/Fragments/FormInput";
+import InputProduct from "../Fragments/FormInput";
 
 export default function FormInput() {
   return (

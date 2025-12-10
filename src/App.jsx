@@ -1,6 +1,6 @@
 import "./App.css";
-import InputProduct from "./assets/Fragments/FormInput";
-import InputGrafik from "./assets/Fragments/GrafikPenjualan";
+import InputProduct from "./Fragments/FormInput";
+import InputGrafik from "./Fragments/GrafikPenjualan";
 
 export default function App() {
   return (
