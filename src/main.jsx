@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import FormInput from "./pages/input.jsx";
 import Grafik from "./pages/grafik.jsx";
 import Produk from "./pages/produk.jsx";
+import Nilai from "./pages/nilai.jsx";
 const router = createBrowserRouter([
   {
     path: "grafik",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "produk",
     element: <Produk />,
+  },
+  {
+    path: "nilai",
+    element: <Nilai />,
   },
 ]);
 
