@@ -1,25 +1,39 @@
-export default function InputProduct({ label }) {
+export default function InputProduct() {
   return (
-    <div className="w-xl border-2 rounded-lg bg-gray-300  mt-6 p-4 font-serif">
+    <div className="w-xl border-2 rounded-lg bg-gray-300  mt-6 p-4 font-serif text-2xl shadow-2xl shadow-gray-400">
       <Judul />
-      <Input label="Nama Produk" />
-      <Input label="Harga" />
-      <Input label="Stok" />
-      <Input label="Kategori" />
+      <Input label="Nama Produk" id="nama" />
+      <Input label="Harga" id="harga" />
+      <Input label="Stok" id="stok" />
+      <Dropdown />
       <Button />
     </div>
   );
 }
 
 function Input(props) {
-  const { label } = props;
+  const { label, id } = props;
   return (
-    <form action="">
-      <label htmlFor="" className="text-xl mt-4 mb-2  block">
+    <div>
+      <label htmlFor={id} className="text-xl mt-4 mb-2  block">
         {label}
       </label>
-      <input className="bg-white w-full p-2 rounded-lg" type="text" />
-    </form>
+      <input id={id} className="bg-white w-full p-2 rounded-lg" type="text" />
+    </div>
+  );
+}
+
+function Dropdown() {
+  return (
+    <div>
+      <label className="text-xl mt-4 mb-2 block">Kategori Produk</label>
+      <select className="bg-white w-full p-2 rounded-lg">
+        <option value="">-- Pilih Kategori --</option>
+        <option value="elektronik">Elektronik</option>
+        <option value="fashion">Fashion</option>
+        <option value="lainnya">Lainnya</option>
+      </select>
+    </div>
   );
 }
 
