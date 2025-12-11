@@ -7,7 +7,7 @@ import Grafik from "./pages/grafik.jsx";
 import Produk from "./pages/produk.jsx";
 import Belanjaan from "./pages/belanjaan.jsx";
 import Nilai from "./pages/nilai.jsx";
-import Home from "./Fragments/Home.jsx";
+import Home from "./Documents/Fragments/Home.jsx";
 const router = createBrowserRouter([
   {
     path: "/",

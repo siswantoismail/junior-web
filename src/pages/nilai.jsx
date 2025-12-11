@@ -1,4 +1,4 @@
-import FormNilai from "../Fragments/FormNilai";
+import FormNilai from "../Documents/Fragments/FormNilai";
 
 export default function Nilai() {
   return (

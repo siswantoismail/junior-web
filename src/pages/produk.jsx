@@ -1,4 +1,4 @@
-import FormProduk from "../Fragments/FormProduk";
+import FormProduk from "../Documents/Fragments/FormProduk";
 
 export default function Produk() {
   return (

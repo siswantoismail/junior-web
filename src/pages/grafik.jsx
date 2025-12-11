@@ -1,4 +1,4 @@
-import InputGrafik from "../Fragments/GrafikPenjualan";
+import InputGrafik from "../Documents/Fragments/GrafikPenjualan";
 
 export default function Grafik() {
   return (
