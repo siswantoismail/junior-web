@@ -34,7 +34,7 @@ export default function TotalBelanja() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-10 p-6 bg-gray-100 rounded-xl shadow-lg">
+    <div className="max-w-2xl p-6 bg-gray-100 rounded-xl shadow-lg font-serif">
       <h1 className="text-3xl font-bold mb-5">Hitung Total Belanja</h1>
 
       {/* FORM INPUT */}
