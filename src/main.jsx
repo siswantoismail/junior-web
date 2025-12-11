@@ -1,14 +1,19 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
 import "./App.css";
 import FormInput from "./pages/input.jsx";
 import Grafik from "./pages/grafik.jsx";
 import Produk from "./pages/produk.jsx";
 import Belanjaan from "./pages/belanjaan.jsx";
 import Nilai from "./pages/nilai.jsx";
+import Home from "./Fragments/Home.jsx";
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <Error />,
+  },
   {
     path: "grafik",
     element: <Grafik />,

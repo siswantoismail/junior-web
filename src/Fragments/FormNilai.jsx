@@ -39,7 +39,7 @@ export default function FormNilai() {
   };
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-6 bg-gray-200 rounded-xl shadow-lg font-serif">
+    <div className="max-w-xl mx-auto mt-10 p-6 bg-gray-200 rounded-xl font-serif shadow-2xl shadow-gray-400">
       <h1 className="text-2xl font-bold mb-5 text-center">
         Program Penilaian Ujian
       </h1>

@@ -2,7 +2,7 @@ import TotalBelanja from "../Fragments/TotalBelanja";
 
 export default function Belanjaan() {
   return (
-    <div className="">
+    <div className="justify-center items-center flex min-h-screen">
       <TotalBelanja />
     </div>
   );
